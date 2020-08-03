@@ -1,4 +1,4 @@
-body{
+body {
     margin: 0;
     padding: 0;
     margin-right: auto;
@@ -6,25 +6,26 @@ body{
     max-width: 1440px;
     font: 300 verdana, sans-serif;
 }
-header{
+
+header {
     max-width: 75%;
     margin: auto;
 }
 
-header ul{
+header ul {
     display: flex;
     list-style: none;
-    height: 200px;
+    /* min-height: 200px; */
 }
 
-header ul li a{
+header ul li a {
     text-decoration: none;
     color: hsl(229, 31%, 21%);
     font-size: 14px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-header ul li a:hover{
+header ul li a:hover {
     color: hsl(0, 94%, 66%);
 }
 
@@ -32,14 +33,16 @@ header ul li a:hover{
 .menu {
     margin-right: 20px;
 }
+
 .menu1 {
     margin-right: auto;
 }
-.menu1 a{
+
+.menu1 a {
     font-weight: bold;
 }
 
-.menu5 a{
+.menu5 a {
     color: #fff;
     padding: 8px 18px;
     border-radius: 5px;
@@ -49,5 +52,35 @@ header ul li a:hover{
 .menu5 a:hover {
     color: hsl(0, 94%, 66%);
     background: #fff;
-    border: hsl(0, 94%, 66%)  1px solid;
-} 
+    border: hsl(0, 94%, 66%) 1px solid;
+}
+
+
+
+
+/* ---------------------------------------------------------------------------- */
+
+.goback p {
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid;
+    width: 8%;
+    padding: 0.3em;
+    font-size: 1.2em;
+    text-align: center;
+    color: #fff;
+    background-color: hsl(0, 94%, 66%);
+    border-radius: 5px;
+}
+
+.goback a {
+    text-decoration: none;
+}
+
+.goback a:hover p {
+    color: hsl(0, 94%, 66%);
+    background-color: #fff;
+    border-color: hsl(0, 94%, 66%);
+    border-radius: 10px;
+}
