@@ -3,4 +3,6 @@ Components Project
 
 List of Components
 1.  Navbar: navbar1. 
-    used the design from frontendmentor bookmark landing page for the navbar component
+        used the design from frontendmentor bookmark landing page for the navbar component
+2.  Navbar: navbar2.
+        used the navbar design from frontendmentor manage landing page for the navbar component

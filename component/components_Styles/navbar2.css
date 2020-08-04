@@ -1,0 +1,102 @@
+html {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+body {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    font: 16px tahoma;
+}
+
+
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    column-gap: 1em;
+}
+
+.container-child {
+    /* border: 2px solid #000; */
+}
+
+.container-child h2 {
+    color: hsl(228, 39%, 23%);
+}
+.container-child ul {
+    /* border: 1px solid; */
+    margin-top: 23px;
+    margin-left: -100px;
+    text-align: center;
+    padding-left: 0;
+}
+
+.container-child li {
+    list-style: none;
+    display: inline-block;
+    font-size: 0.8em;
+    margin-right: 1.5em;
+}
+
+.list a {
+    text-decoration: none;
+    color: hsl(228, 39%, 23%);
+}
+.list a:hover {
+    color: hsl(228, 39%, 23%, .70)
+}
+
+.signup {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1em;
+}
+
+.signup a{
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #fff;
+    text-decoration: none;
+    font-size: 0.75em;
+    background-color: hsl(12, 88%, 59%);
+    padding: 1em;
+    padding-left: 2.3em;
+    padding-right: 2.3em;
+}
+.signup a:hover {
+    background-color: hsl(12, 88%, 59%, .70);
+}
+
+
+.goback p {
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid;
+    width: 8%;
+    padding: 0.3em;
+    font-size: 1.2em;
+    text-align: center;
+    color: #fff;
+    background-color: hsl(0, 94%, 66%);
+    border-radius: 5px;
+}
+
+.goback a {
+    text-decoration: none;
+}
+
+.goback a:hover p {
+    color: hsl(0, 94%, 66%);
+    background-color: #fff;
+    border-color: hsl(0, 94%, 66%);
+    border-radius: 10px;
+}
