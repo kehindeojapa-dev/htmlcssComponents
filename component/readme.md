@@ -8,3 +8,5 @@ List of Components
         used the navbar design from frontendmentor manage landing page for the navbar component
 3.  Banner: heroimage1.
         this is a hero image (banner) from frontendmentor manage landing page for the banner component
+4.  Banner: heroimage2.
+        this is the main banner from frontendmentor bookmark landing page to be used for the banner component

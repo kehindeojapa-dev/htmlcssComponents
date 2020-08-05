@@ -1,0 +1,111 @@
+html {
+    box-sizing: border-box;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 80%;
+    margin: 0 auto;
+    font-size: 16px;
+    font-family: "Gill Sans", sans-serif;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    margin-top: 20px;
+}
+
+.main {
+    display: grid;
+    grid-template-rows: 1fr 1fr 100px;
+}
+
+.main h1 {
+    font-size: 2em;
+    margin-top: 20%;
+    color: hsl(229, 31%, 21%);
+    font-weight: bold;
+}
+
+.main p {
+    font-size: 0.9em;
+    margin-top: -2%;
+    line-height: 1.5em;
+    color: hsl(229, 8%, 60%);
+}
+
+.main div {
+    /* border: 2px solid #f6f6; */
+    margin-top: -25%;
+}
+
+.main div a {
+    padding: 1em 2em;
+    text-decoration: none;
+    font-size: 0.7em;
+    font-weight: bold;
+}
+
+.main div a:nth-child(1) {
+    background-color: hsl(231, 69%, 60%);
+    color: #fff;
+    border-radius: 3px;
+}
+
+.main div a:nth-child(1):hover {
+    background-color: #fff;
+    border: 1px solid hsl(231, 69%, 60%);
+    color: hsl(231, 69%, 60%);
+}
+
+.main div a:nth-child(2) {
+    background-color: hsl(234, 21%, 91%);
+    color: #000;
+    border-radius: 3px;
+    box-shadow: 1px 1px 5px 2px #C8C9B7;
+}
+
+.main div a:nth-child(2):hover {
+    background-color: #fff;
+    border: 1px solid #000;
+}
+
+.container-child img {
+    object-fit: contain;
+    width: 110%;
+    height: 110%;
+    position: relative;
+    left: -15px;
+    bottom: 80px;
+}
+
+.goback p {
+    margin-top: -100px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid;
+    width: 8%;
+    padding: 0.3em;
+    font-size: 1.2em;
+    text-align: center;
+    color: #fff;
+    background-color: hsl(0, 94%, 66%);
+    border-radius: 5px;
+}
+
+.goback a {
+    text-decoration: none;
+}
+
+.goback a:hover p {
+    color: hsl(0, 94%, 66%);
+    background-color: #fff;
+    border-color: hsl(0, 94%, 66%);
+    border-radius: 10px;
+}
