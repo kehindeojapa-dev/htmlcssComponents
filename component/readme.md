@@ -10,3 +10,5 @@ List of Components
         this is a hero image (banner) from frontendmentor manage landing page for the banner component
 4.  Banner: heroimage2.
         this is the main banner from frontendmentor bookmark landing page to be used for the banner component
+5.  Footer: footer1.
+        this is the footer section from frontendmentor bookmark landing page, recreated for the footer component.

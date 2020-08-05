@@ -1,0 +1,154 @@
+html {
+    box-sizing: border-box;
+}
+* {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.sub-footer {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: hsl(231, 69%, 60%);
+    height: 280px;
+}
+
+.sub-footer p {
+    margin-top: 0;
+    padding: 50px 0 10px 0;
+    color: #fff;
+    font-weight: 500;
+    font-size: 0.6em;
+    letter-spacing: 0.3em;
+}
+
+.sub-footer h1 {
+    color: #fff;
+    margin-top: 0;
+    font-weight: 500;
+}
+
+form input {
+    width: 23%;
+    height: 40px;
+    position: relative;
+    right: 20px;
+    border-radius: 4px;
+    border: none;
+}
+
+form button {
+    height: 40px;
+    border-radius: 4px;
+    border: none;
+    width: 8%;
+    background-color: hsl(0, 94%, 66%);
+    color: #fff;
+    font-size: 0.7em;
+    font-weight: bold;
+    position: relative;
+    right: 10px;
+}
+
+form button:hover {
+    color: hsl(0, 94%, 66%);
+    background-color: #fff;
+    border: 1px solid hsl(0, 94%, 66%);
+}
+
+.main-footer {
+    background-color: hsl(229, 31%, 21%);
+    display: flex;
+    justify-content: space-evenly;
+    height: 4em;
+}
+
+.main-footer > div:nth-child(1){
+    width: 20%;
+}
+.main-footer > div:nth-child(2){
+    width: 60%;
+}
+.main-footer > div:nth-child(3){
+    width: 20%;
+}
+
+.footer-child h1 {
+    color: #fff;
+    font-size: 1.5em;
+    text-align: center;
+    margin-top: 15px;
+    margin-left: 50px;
+}
+
+.footer-child li {
+    display: inline-block;
+    margin-right: 2em;
+}
+
+.footer-child li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 0.7em;
+    letter-spacing: 0.1em;
+}
+
+.footer-child li a:hover {
+    color: hsl(0, 94%, 66%);
+}
+
+.icon img{
+    position: relative;
+    top: 18px;
+    left: 30px;
+    width: 8%;
+}
+.icon img:nth-child(1) {
+    margin-right: 25px;
+}
+
+.icon .facebook:hover {
+    content: url(../images/icon-facebook-hover.svg);
+}
+
+.icon .twitter:hover {
+    content: url(../images/icon-twitter-hover.svg);
+}
+
+
+
+.goback p {
+    /* margin-top: -250px; */
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid;
+    width: 8%;
+    padding: 0.3em;
+    font-size: 1.2em;
+    text-align: center;
+    color: #fff;
+    background-color: hsl(0, 94%, 66%);
+    border-radius: 5px;
+}
+
+.goback a {
+    text-decoration: none;
+}
+
+.goback a:hover p {
+    color: hsl(0, 94%, 66%);
+    background-color: #fff;
+    border-color: hsl(0, 94%, 66%);
+    border-radius: 10px;
+}
+
