@@ -1,0 +1,94 @@
+html {
+    box-sizing: border-box;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 60%;
+}
+
+/* .container-child {
+    border: 2px solid;
+} */
+
+.main {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.main h1 {
+    font-size: 3em;
+    color: hsl(228, 39%, 23%);
+    line-height: 1.15em;
+}
+
+.main p {
+    color: hsl(227, 12%, 61%);
+    line-height: 1.5em;
+    margin-top: -2%;
+}
+
+.main a {
+    color: #fff;
+    text-decoration: none;
+    background-color: hsl(12, 88%, 59%);
+    width: 25%;
+    height: 40%;
+    padding: 0.9em 30px;
+    border-radius: 2em;
+    font-size: 0.7em;
+    font-weight: bold;
+    margin-top: -2%;
+}
+
+.main a:hover {
+    color: #fff, .5;
+    background-color: hsl(12, 88%, 59%, .5);
+}
+
+.container-child img {
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+}
+
+.goback p {
+    margin-top: -250px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid;
+    width: 8%;
+    padding: 0.3em;
+    font-size: 1.2em;
+    text-align: center;
+    color: #fff;
+    background-color: hsl(0, 94%, 66%);
+    border-radius: 5px;
+}
+
+.goback a {
+    text-decoration: none;
+}
+
+.goback a:hover p {
+    color: hsl(0, 94%, 66%);
+    background-color: #fff;
+    border-color: hsl(0, 94%, 66%);
+    border-radius: 10px;
+}
