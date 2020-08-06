@@ -14,3 +14,5 @@ List of Components
         this is the footer section from frontendmentor bookmark landing page, recreated for the footer component.
 6.  Footer: footer2.
         this is the footer section from frontendmentor manage landing page, recreated for the footer component.
+7.  Download: downloadSection1.
+        this is the download section from frontendmentor bookmark landing page, recreated for the download component
