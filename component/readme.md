@@ -12,3 +12,5 @@ List of Components
         this is the main banner from frontendmentor bookmark landing page to be used for the banner component
 5.  Footer: footer1.
         this is the footer section from frontendmentor bookmark landing page, recreated for the footer component.
+6.  Footer: footer2.
+        this is the footer section from frontendmentor manage landing page, recreated for the footer component.

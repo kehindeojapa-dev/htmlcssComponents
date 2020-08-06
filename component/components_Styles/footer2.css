@@ -1,0 +1,129 @@
+html {
+    box-sizing: border-box;
+}
+* {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color: hsl(233, 12%, 13%);
+    margin-top: 1em;
+}
+
+.container > div:nth-child(1) {
+    margin-left: 5em;
+}
+
+.container > div:nth-child(1) h1 {
+    color: #fff;
+}
+.container > div:nth-child(1) ul {
+    margin-left: -2.5em;
+    margin-top: 4em;
+}
+.container > div:nth-child(1) li {
+    display: inline-block;
+}
+.container >div:nth-child(1) li:nth-child(1) img:hover {
+    content:url(../images/footer2/icon-facebook-hover.svg);
+}
+.container >div:nth-child(1) li:nth-child(2) img:hover {
+    content:url(../images/footer2/icon-youtube-hover.svg);
+}
+.container >div:nth-child(1) li:nth-child(3) img:hover {
+    content:url(../images/footer2/icon-twitter-hover.svg);
+}
+.container >div:nth-child(1) li:nth-child(4) img:hover {
+    content:url(../images/footer2/icon-pinterest-hover.svg);
+}
+.container >div:nth-child(1) li:nth-child(5) img:hover {
+    content:url(../images/footer2/icon-instagram-hover.svg);
+}
+
+
+.container > div:nth-child(2) ul, .container > div:nth-child(3) ul {
+    margin-top: 2em;
+}
+.container > div:nth-child(2) li, .container > div:nth-child(3) li {
+    list-style: none;
+    margin-bottom: 0.6em;
+}
+.container > div:nth-child(2) li a, .container > div:nth-child(3) li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 0.75em;
+}
+.container > div:nth-child(2) li a:hover, .container > div:nth-child(3) li a:hover {
+    color: hsl(12, 88%, 59%);
+}
+
+.container > div:nth-child(4) form{
+    margin-top: 2em;
+    margin-right: 3em;
+}
+.container > div:nth-child(4) form input {
+    width: 70%;
+    height: 35px;
+    border-radius: 20px;
+    border: none;
+    color: hsl(12, 88%, 59%);
+}
+.container > div:nth-child(4) form input[placeholder]{
+    padding-left: 1em;
+}
+
+.container > div:nth-child(4) form button {
+    width: 20%;
+    height: 35px;
+    color: #fff;
+    background-color: hsl(12, 88%, 59%);
+    border: none;
+    border-radius: 20px;
+} 
+.container > div:nth-child(4) form button:hover{
+    background-color: hsl(12, 88%, 80%);
+}
+
+.container > div:nth-child(4) p {
+    font-size: 0.75em;
+    color: hsl(227, 12%, 61%);
+    position: relative;
+    top: 2em;
+    left: 4.5em;
+}
+
+.goback p {
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid;
+    width: 8%;
+    padding: 0.3em;
+    font-size: 1.2em;
+    text-align: center;
+    color: #fff;
+    background-color: hsl(0, 94%, 66%);
+    border-radius: 5px;
+}
+
+.goback a {
+    text-decoration: none;
+}
+
+.goback a:hover p {
+    color: hsl(0, 94%, 66%);
+    background-color: #fff;
+    border-color: hsl(0, 94%, 66%);
+    border-radius: 10px;
+}
