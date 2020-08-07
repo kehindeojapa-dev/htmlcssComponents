@@ -16,3 +16,5 @@ List of Components
         this is the footer section from frontendmentor manage landing page, recreated for the footer component.
 7.  Download: downloadSection1.
         this is the download section from frontendmentor bookmark landing page, recreated for the download component
+8.  ArticleLayout: articleLayout1.
+        this is the article section from frontendmentor insure landing page, recreated for the article component
