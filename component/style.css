@@ -19,11 +19,8 @@ header {
     max-height: 400px;
 }
 
-header h1 {
-    margin-top: 10px;
-    margin-bottom: 10px;
+header h2 {
     text-align: center;
-    font-size: 50px;
 }
 
 .component {
@@ -44,7 +41,7 @@ header h1 {
     grid-template-rows: max-content 200px 1fr;
     border: 2px solid #555;
     border-radius: 20px;
-    box-shadow: 5px 10px 20px rgba(150, 150, 150, .9);
+    box-shadow: 0px 4px 9px 4px #D7D3ED;
 }
 
 .card img {

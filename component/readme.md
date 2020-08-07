@@ -18,3 +18,5 @@ List of Components
         this is the download section from frontendmentor bookmark landing page, recreated for the download component
 8.  ArticleLayout: articleLayout1.
         this is the article section from frontendmentor insure landing page, recreated for the article component
+9.  Feature: feature1.
+        this is the feature section from frontendmentor easybank landing page, recreated for the feature component.
