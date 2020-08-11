@@ -22,3 +22,5 @@ List of Components
         this is the feature section from frontendmentor easybank landing page, recreated for the feature component.
 10. ArticleLayout: articleLayout2.
         this is the second article section from frontendmentor easybank landing page, recreated for the article component.
+11. Login
+        this is a login user interface gotten from UI daily website.

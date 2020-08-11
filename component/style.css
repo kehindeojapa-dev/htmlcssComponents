@@ -19,7 +19,7 @@ header {
     max-height: 400px;
 }
 
-header h2 {
+header h1, header h2 {
     text-align: center;
 }
 

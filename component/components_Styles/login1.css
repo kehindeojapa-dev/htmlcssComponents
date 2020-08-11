@@ -1,0 +1,221 @@
+html {
+    box-sizing: border-box;
+}
+* {
+    box-sizing: inherit;
+}
+
+:root {
+    --color1: #f3fafb;
+    --color2: #252f44;
+    --color3: #9fa5b5;
+    --color4: #927d8a;
+    --color5: #848c94;
+    --color6: #c0bac2;
+    --color7: rgb(15, 144, 196);
+}
+
+body {
+    font-size: 16px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.big-container {
+    /* outline: 1px solid #000; */
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3em;
+    /* border: 1.5em solid rgb(241, 237, 237); */
+    box-shadow: 0px 1px 5px 23px #eeeeee;
+    display: grid;
+    grid-template-columns: 45% 55%;
+    /* border-radius: 0.001em; */
+}
+
+.container-child {
+    /* outline: 1px solid #000; */
+
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border-right: 2px solid #eee;
+    /* justify-content: space; */
+}
+
+.form-container form .facebook {
+    text-decoration: none;
+    color: var(--color5);
+    display: block;
+    margin-top: 6em;
+    padding: 0.5em 2em;
+    border: 1px solid var(--color6);
+    border-radius: 5px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 0.85em;
+    font-weight: bold;
+}
+
+#facebook-login {
+    /* outline: 1px solid #000; */
+    position: relative;
+    bottom: 0.5em;
+}
+
+.form-container form p:nth-child(2) {
+    color: var(--main-color);
+    font-size: 0.8em;
+    font-weight: bold;
+}
+
+.form-field {
+    /* background-color: #fff; */
+    width: 70%;
+    padding: 0.75em 0;
+    border: 1px solid var(--color6);
+    border-radius: 5px;
+}
+.form-field::placeholder {
+    color: var(--color5);
+    padding-left: 1.5em;
+    font-size: 1em;
+}
+
+.label {
+    /* outline: 1px solid; */
+    display: block;
+    margin-left: -189px;
+    color: var(--color2);
+    font-size: 0.9em;
+    font-weight: bold;
+}
+.label1 {
+    margin-left: -216px;
+    margin-bottom: -15px;
+    margin-top: -5px;
+}
+
+.label2 {
+    margin-bottom: -15px;
+    margin-top: 18px;
+}
+
+.remember-forget {
+    margin-top: 1em;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 5% 45% 50% ;
+    font-size: 0.8em;
+}
+
+.remember {
+    margin-left: -10px;
+    color: var(--color5);
+}
+.forget {
+    /* display: block; */
+    margin-right: -25px;
+    text-decoration: none;
+    color: rgb(15, 144, 196);
+}
+
+form input[type=checkbox] {
+    position: relative;
+    bottom: 3px;
+}
+
+.login {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    width: 70%;
+    padding: 0.75em 2em;
+    background-color: var(--color2);
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+}
+
+.form-container p:last-child {
+    margin-top: 3.5em;
+    margin-bottom: 2em;
+    color: var(--color2);
+}
+
+.signup {
+    text-decoration: none;
+    color: var(--color7);
+}
+
+.container {
+    margin-top: 20%;
+    margin-bottom: 20%;
+    margin-left: 20%;
+    margin-right: 15%;
+}
+
+.container-child .feature {
+    margin-top: 2.5em;
+}
+
+.container-child .feature h1{
+    color: var(--color2);
+    font-size: 1.2em;
+    margin-bottom: 1.5em;
+    margin-left: -32px;
+}
+
+.container-child .feature p {
+    margin-top: -20px;
+    font-size: 0.85em;
+    font-weight: 400;
+    line-height: 1.5em;
+    color: var(--color2);
+}
+
+.container-child .feature1 h1::before {
+    content: url(../images/Typicons_e0c3\(0\)_32.png);
+    position: relative;
+    /* bottom: 50%; */
+    right: 3%;
+}
+.container-child .feature2 h1::before {
+    content: url(../images/icomoon_e65f\(0\)_32.png);
+    position: relative;
+    /* bottom: 50%; */
+    right: 3%;
+}
+.container-child .feature3 h1::before {
+    content: url(../images/octicons_f01f\(0\)_32.png);
+    position: relative;
+    /* bottom: 50%; */
+    right: 3%;
+}
+
+.goback a {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    background-color: hsl(0, 94%, 66%);
+    margin-top: 50px;
+    width: 10%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 0.3em;
+    padding-bottom: 0.3em;
+    border-radius: 5px;
+    border: 1px solid transparent;
+}
+
+.goback a:hover{
+    color: hsl(0, 94%, 66%);
+    background-color: #fff;
+    border-color: hsl(0, 94%, 66%);
+}

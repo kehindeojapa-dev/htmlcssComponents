@@ -1,0 +1,150 @@
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+:root {
+    --color1: #eae6f6;
+    --color2: #1e1e64;
+    --color3: #8b8cb2;
+    --color4: #24a5f4;
+    --color5: #ca3185;
+    --color6: #7c7c94;
+}
+
+body {
+    font-size: 16px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: var(--color1);
+}
+
+.big-container {
+    width: 60%;
+    margin-top: 1.5em;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+
+
+.boardme {
+    background: var(--color2);
+    color: #fff;
+    padding-left: 2em;
+    padding-right: 2em;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+
+.boardme h1 {
+    font-size: 1.4em;
+    margin-top: 1.5em;
+}
+
+.boardme h2 {
+    margin-top: 3.5em;
+}
+
+.boardme p {
+    color: var(--color1);
+    margin-top: 2em;
+}
+
+.signup {
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background: #eeeeee;
+    padding-left: 4em;
+    padding-right: 7em;
+    display: flex;
+    flex-direction: column;
+}
+
+.signup h1 {
+    color: var(--color2);
+    font-size: 2.2em;
+    margin-top: 2em;
+    line-height: 1.2em;
+}
+
+.signup form {
+    color: var(--color2)
+}
+
+.signup form input {
+    width: 100%;
+    height: 3.5em;
+    box-shadow: 0px 0px 1px 1px silver;
+    border: none;
+    border-radius: 3px;
+    outline: none;
+}
+.signup form input:focus {
+    border: 1px solid var(--color2);
+}
+
+label {
+    color: var(--color2);
+    font-size: 1.2em;
+    display: block;
+    margin-bottom: -0.8em;
+    margin-top: 0.5em;
+}
+
+.signup .name {
+    margin-top: -0.1em;
+}
+
+.signup form button {
+    width: 100%;
+    height: 3.5em;
+    margin-top: 1.5em;
+    border: 1px solid var(--color2);
+    border-radius: 3px;
+    color: var(--color1);
+    background-color: var(--color2);
+    font-size: 1em;
+}
+
+.signup form button:hover {
+    background-color: var(--color3);
+}
+
+.signup form p {
+    margin-top: 4em;
+    position: relative;
+    left: 12em;
+    color: var(--color2);
+}
+
+.signup form a {
+    text-decoration: none;
+    color: var(--color4);
+}
+
+.goback a {
+    display: block;
+    display: none;
+    text-decoration: none;
+    color: #fff;
+    background-color: hsl(0, 94%, 66%);
+    margin-top: 10px;
+    width: 10%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 0.3em;
+    padding-bottom: 0.3em;
+    border-radius: 5px;
+    border: 1px solid transparent;
+}
+
+.goback a:hover{
+    color: hsl(0, 94%, 66%);
+    background-color: #fff;
+    border-color: hsl(0, 94%, 66%);
+}
