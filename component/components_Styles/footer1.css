@@ -147,3 +147,139 @@ form button:hover {
     background-color: #fff;
     border-color: hsl(0, 94%, 66%);
 }
+
+
+
+/* MEDIA QUERIES */
+
+@media (min-width: 200px) and (max-width: 500px) {
+    .sub-footer {
+        min-height: 340px;
+    }
+    .sub-footer p {
+        font-weight: 400;
+        font-size: 0.8em;
+    }
+    .sub-footer h1 {
+        color: #fff;
+        margin-top: 0;
+        font-weight: 400;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+    form input {
+        display: inline-flex;
+        width: 80%;
+        margin-left: 9%;
+        margin-right: auto;
+        padding-left: 1em;
+    }
+    
+    form button {
+        display: block;
+        width: 80%;
+        margin-left: 12%;
+        margin-right: auto;
+        margin-top: 1em;
+        margin-bottom: 2em;
+    }
+    .main-footer {
+        flex-wrap: wrap;
+        justify-content: center;
+        min-height: 250px;
+    }
+    .main-footer > div:nth-child(1){
+        width: 100%;
+    }
+    .main-footer > div:nth-child(2){
+        width: 100%;
+    }
+    .main-footer > div:nth-child(3){
+        width: 100%;
+    }
+    
+    .footer-child h1 {
+        font-size: 1.2em;
+        font-weight: 600;
+        text-align: center;
+        margin-top: 1.7em;
+        margin-left: 0;
+    }
+    
+    .footer-child li {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 1.3em;
+    }
+    
+    .footer-child li a {
+        font-size: 0.9em;
+    }
+    
+    .icon img{
+        position: relative;
+        top: 0px;
+        left: 40%;
+        width: 8%;
+    }
+}
+@media (min-width: 501px) and (max-width: 592px){
+    form button {
+        position: relative;
+        bottom: 0.4em;
+    }
+    
+}
+
+
+@media (min-width: 501px) and (max-width: 768px){
+    .sub-footer p {
+        font-size: 0.9em;
+    }
+    form input {
+        width: 30%;
+        padding-left: 1em;
+    }
+    form button {
+        width: 12%;
+    }
+    .footer-child h1 {
+        font-size: 1.3em;
+        font-weight: 600;
+        text-align: center;
+    }
+    
+    .footer-child ul {
+        margin-left: 2.5em;
+    }
+    
+    .footer-child li a {
+        font-size: 0.5em;
+    }
+}
+
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    form button {
+        width: 10%;
+    }
+    .footer-child ul {
+        margin-left: 6em;
+        margin-top: 1.2em;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 3000px) {
+    body {
+        max-width: 1440px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    form button {
+        width: 10%;
+    }
+    .footer-child ul {
+        margin-left: 10em;
+        margin-top: 1.2em;
+    }
+}
