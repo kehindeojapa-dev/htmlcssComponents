@@ -307,7 +307,7 @@ body {
 
 @media (min-width: 1025px) and (max-width: 3000px) {
     body {
-        background-color: yellow;
+        background-color: #fff;
         width: 100%;
         overflow-x: hidden;
         max-width: 1440px;
