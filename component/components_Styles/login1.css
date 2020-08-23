@@ -219,3 +219,138 @@ form input[type=checkbox] {
     background-color: #fff;
     border-color: hsl(0, 94%, 66%);
 }
+
+@media (max-width: 360px) {
+    body {
+        overflow-x: hidden;
+    }
+    .big-container {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 100%;
+    }
+    .label {
+        margin-left: auto;
+    }
+    .remember-forget {
+        display: inline-flex;
+        justify-content: space-evenly;
+        font-size: 0.8em;
+    }
+    .remember-forget > div {
+        position: relative;
+        bottom: 0.2em;
+    }
+    .remember {
+        margin-left: 0em;
+    }
+    form input[type=checkbox] {
+        position: relative;
+        bottom: 0;
+    }
+}
+@media (min-width: 361px) and (max-width: 600px){
+    body {
+        overflow-x: hidden;
+    }
+    .big-container {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 100%;
+    }
+    .label {
+        margin-left: auto;
+    }
+    .remember-forget {
+        display: inline-flex;
+        justify-content: space-evenly;
+        font-size: 0.8em;
+    }
+    .remember-forget > div {
+        position: relative;
+        bottom: 0.2em;
+    }
+    .remember {
+        margin-left: 0em;
+    }
+    form input[type=checkbox] {
+        position: relative;
+        bottom: 0;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 824px) {
+    .big-container {
+        width: 100%;
+    }
+    .label {
+        margin-left: auto;
+    }
+    .remember-forget {
+        display: inline-flex;
+        justify-content: space-evenly;
+        font-size: 0.8em;
+    }
+    .remember-forget > div {
+        position: relative;
+        bottom: 0.2em;
+    }
+    .remember {
+        margin-left: 0em;
+    }
+    form input[type=checkbox] {
+        position: relative;
+        bottom: 0;
+    }
+}
+
+@media (min-width: 825px) and (max-width: 1100px) {
+    .big-container {
+        width: 75%;
+    }
+    .remember-forget {
+        display: inline-flex;
+        justify-content: space-evenly;
+        font-size: 0.8em;
+    }
+    .remember-forget > div {
+        position: relative;
+        bottom: 0.2em;
+    }
+    .remember {
+        margin-left: 0em;
+    }
+    form input[type=checkbox] {
+        position: relative;
+        bottom: 0;
+    }
+}
+
+@media (min-width: 1101px) and (max-width: 1245px) {
+    .big-container {
+        width: 60%;
+    }
+    .remember-forget {
+        display: inline-flex;
+        justify-content: space-evenly;
+        font-size: 0.8em;
+    }
+    .remember-forget > div {
+        position: relative;
+        bottom: 0.2em;
+    }
+    .remember {
+        margin-left: 0em;
+    }
+    form input[type=checkbox] {
+        position: relative;
+        bottom: 0;
+    }
+}
+@media (min-width: 1246px) and (max-width: 3000px) {
+    body {
+        max-width: 1440px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
