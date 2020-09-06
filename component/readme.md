@@ -4,6 +4,7 @@ Components Project
 List of Components
 1.  Navbar: navbar1. 
         used the design from frontendmentor bookmark landing page for the navbar component
+        ![Alt text](./images/navbar1.PNG "Optional title")
 2.  Navbar: navbar2.
         used the navbar design from frontendmentor manage landing page for the navbar component
 3.  Banner: heroimage1.
